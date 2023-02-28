@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Compañias</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KyP Group</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="compania.html">Compañías</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="usuario.html">Usuarios</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" aria-expanded="false"> Cerrar Sesión </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <form class="container-fluid form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="mail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="mail">
+        </div>
+        <div class="mb-3">
+            <label for="user_vs" class="form-label">User VS</label>
+            <input type="email" class="form-control" id="user_vs">
+          </div>
+          <div class="mb-3">
+            <label for="password_vs" class="form-label">Password VS</label>
+            <input type="password" class="form-control" id="password_vs">
+          </div>
+          <div class="mb-3">
+            <label for="token_vs" class="form-label">Token VS</label>
+            <input type="text" class="form-control" id="token_vs">
+          </div>
+          <div class="mb-3">
+            <label for="client_id_vs" class="form-label">Client ID VS</label>
+            <input type="password" class="form-control" id="client_id_vs">
+          </div>
+          <div class="mb-3">
+            <label for="client_secret_vs" class="form-label">Client Secret VS</label>
+            <input type="text" class="form-control" id="client_secret_vs">
+          </div>
+          <div class="mb-3">
+            <label for="url_vs" class="form-label">URL VS</label>
+            <input type="url" class="form-control" id="url_vs">
+          </div>
+          <div class="mb-3">
+            <label for="appkey_vtex" class="form-label">App Key VTEX</label>
+            <input type="text" class="form-control" id="appkey_vtex">
+          </div>
+          <div class="mb-3">
+            <label for="apptoken_vtex" class="form-label">App Token VTEX</label>
+            <input type="text" class="form-control" id="apptoken_vtex">
+          </div>
+          <div class="mb-3">
+            <label for="fravega_integration" class="form-label">Fravega Integration</label>
+            <input type="number" class="form-control" id="fravega_integration">
+          </div>
+          <div class="mb-3">
+            <label for="active" class="form-label">Active</label>
+            <input type="text" class="form-control" id="active">
+          </div>
+        
+        <button type="submit" class="btn btn-dark btn-add btn-add-company">Add</button>
+      </form>

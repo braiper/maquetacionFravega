@@ -4,3 +4,35 @@
 .c-card{
     margin: 5px;
 }
+
+.btn-link{
+    text-decoration: none;
+    color: white;
+}
+.btn-epic:hover{
+    background-color: red;
+    transition: all 200ms;
+    border: none;
+}
+.add-user{
+    margin-bottom: 10px;
+}
+.btn-edit:hover{
+    background-color: #85C1E9;
+    transition: all 200ms;
+    border: none;
+}
+.btn-add:hover{
+    background-color: #2ECC71;
+    transition: all 200ms;
+    border: none;
+}
+
+.form{
+    max-width: 50%;
+}
+
+.btn-add-company{
+    width: 200px;
+    margin-bottom: 10px;
+}
